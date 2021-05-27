@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	<script type="text/javascript">
+		function validate(){
+			var username=document.getElementById("uname");
+			var password=document.getElementById("pass");
+			if (username.value=="admin" && password.value=="123456") {
+				alert("Login successfully!!");
+				return false;
+			}
+			else {
+				alert("Login failed!");
+			}
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<body>
+		<header>
+		<nav class="sticky-nav">
+			<div class="row">
+				<p class="head-text">Sales Prediction and Forecasting</p>
+				<!-- <h2> using Time Series Forecasting</h2> -->
+				<div class="main-nav">
+					<ul style="list-style: none;">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="about_us.html">About us</a>
+						</li>
+						<li>
+							<a href="login.html">Login</a>
+						</li>
+						<!-- <li>
+							<a href="#">Contact us</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+		<div class="loginbox">
+			<h1>Login Here</h1>
+			<form onsubmit="validate()" action="input.html" method="POST">
+				<p>Username</p>
+				<input type="text" name="" placeholder="Enter Username" id="uname">
+				<p>Password</p>
+				<input type="text" name="" placeholder="Enter Password" id="pass">
+				<input type="submit" name="" value="Login" onclick="validate()">
+				<a href="#">Lost your password?</a><br>
+				<a href="#">Don't have an account?</a>
+			</form>
+		</div>
+	</body>
+</head>
+
+
+
+</html>
