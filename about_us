@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Sales Prediction</title>
+</head>
+<body>
+	<div class="about-section">
+		<div class="inner-container">
+			<h1>About Us</h1>
+			<p class="text">
+				Tata Motors Limited is an Indian multinational automotive manufacturing company headquartered in Mumbai, Maharashtra, India. It is a part of Tata Group, an Indian conglomerate. Its products include passenger cars, trucks, vans, coaches, buses, sports cars, construction equipment and military vehicles.
+			</p>
+			<div class="skills">
+				<span>Web Design</span>
+				<span>Photoshop & Illustrator</span>
+				<span>Coding</span>
+
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

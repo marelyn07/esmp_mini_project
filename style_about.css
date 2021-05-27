@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open-Sans",sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #a3a3c2;
+}
+
+.row 
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.head-text{
+	margin: 0;
+	margin-bottom: 35px;
+	/*letter-spacing: 1px;*/
+	/*text-transform: uppercase;*/
+	font-weight: 300px;
+	/*color: #fff; */
+	margin-top: 40px;
+	margin-left: -30px;
+	font-size: 200%;
+	/*word-spacing: 1px;*/
+}
+
+.sticky-nav {
+	color: #000;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	background-color: #a3a3c2;
+	overflow: hidden;
+	
+}
+
+.main-nav 
+{
+	margin-top: -95px;
+	float: right;
+	list-style: none;
+}
+
+.main-nav li 
+{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	color: #33334d;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	padding: 4px;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #5C68A3;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	color: #000;
+	padding: 0 2px;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
+.about-section{
+	background: url(img/stocks_aboutus.jpg) no-repeat left;
+	background-size: 63%;
+	background-color: #fdfdfd;
+	overflow: hidden;
+}
+
+.inner-container{
+	width: 55%;
+	float: right;
+	background-color: #fdfdfd;
+	padding: 95px;
+}
+
+.inner-container h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.text{
+	font-size: 13px;
+	color: #545454;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px){
+	.inner-container{
+		padding: 80px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.about-section{
+		background-size: 100%;
+		padding: 100px 40px;
+	}
+
+	.inner-container{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.about-section{
+		padding: 0;
+	}
+
+	.inner-container{
+		padding: 60px;
+	}
+}
+
+
+
+
